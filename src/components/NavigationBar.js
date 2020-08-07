@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import { Link, NavLink } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -12,10 +13,15 @@ const Styles = styled.div`
   
 
   }
+  .nav-item {
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+  }
 
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #bbb;
-    padding-top: 10px;
+    padding-top: 15px;
     &:hover {
       color: white;
     }
@@ -32,15 +38,21 @@ class NavigationBar extends Component {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
 
-          <Nav.Item ClassName="pt-3" >
-            <Nav.Link>
-              <Link to="/">Home</Link>
+          <Nav.Item  >
+            <Nav.Link >
+              <Link  to="/">الرئيسية</Link>
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
             <Nav.Link>
               <Link to="/vr">360*</Link>
+            </Nav.Link>
+          </Nav.Item>
+
+          <Nav.Item>
+            <Nav.Link>
+              <Link to="/trips">رحلات</Link>
             </Nav.Link>
           </Nav.Item>
 
@@ -58,19 +70,19 @@ class NavigationBar extends Component {
 
         
           <Nav.Item >
-          <Nav.Link>
+          
               <Link to="/login">
           <Button   variant="outline-warning ">تسجيل الدخول</Button>{' '}
           </Link>
-          </Nav.Link>
+          
           </Nav.Item>
 
-          <Nav.Item  ClassName="rounded-pill" >
-          <Nav.Link>
+          <Nav.Item  >
+          
               <Link to="/signup">
           <Button   variant="warning " ClassName="rounded-pill">اشتراك</Button>{' '}
           </Link>
-          </Nav.Link>
+          
           </Nav.Item>
 
 

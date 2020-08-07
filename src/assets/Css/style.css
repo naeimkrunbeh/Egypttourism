@@ -9,3 +9,10 @@
     background-color:#222 ;
     text-align: center;
 }
+
+.btn {
+    border-radius: 1.50rem !important;
+}
+.navEdit{
+    padding-top: 50px !important;
+}
