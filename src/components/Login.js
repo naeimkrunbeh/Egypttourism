@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Button} from 'react-bootstrap' ;
 const validEmailRegex = RegExp(
   /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
 );
@@ -86,11 +86,12 @@ export default class Login extends React.Component {
                 <span className='error'>{errors.password}</span>}
             </div>
             <div className='submit'>
-              <button>تسجيل</button>
+            <Button   variant="warning " >تسجيل</Button>{' '}
             </div>
           </form>
         </div>
-      </div>
+        </div>
+      
     );
   }
 }

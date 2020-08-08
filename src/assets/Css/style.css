@@ -1,3 +1,62 @@
+.homeBackground{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    background-image: url("../Img/homeimg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #aaa;
+}
+
+
+.bookingBackground{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    background-image: url("../Img/bookingimg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #aaa;
+}
+
+.tripsBackground{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    background-image: url("../Img/tripsimg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #aaa;
+
+}
+
+.vrBackground{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../Img/vrimg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: #aaa;
+}
+
 .meBtn {
     border-radius: 25px !important;
     padding-right: 5% !important;
